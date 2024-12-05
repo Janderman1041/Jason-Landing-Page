@@ -69,6 +69,9 @@ h1{
     border-radius: 10%;
     border:2px solid #516256;
 }
+.factsection hr{
+    font-weight: 700;
+}
 .facts h3{
     font-size: 2rem;
     color: #516256;
@@ -77,7 +80,7 @@ h1{
 .contact-me{
     width: 50%;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .btn {
     text-align: center;
@@ -104,7 +107,9 @@ h1{
 }
 .foot h4{
     font-weight: 100;
+    color: #c7d7ee;
 }
+
 
 @media (max-width: 1100px) {
     .mobileheroimg{
