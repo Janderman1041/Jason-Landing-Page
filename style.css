@@ -1,0 +1,131 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mobileheroimg{
+    display: none;
+}
+body{
+    background-color: #c7d7ee;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+}
+.bannerimg img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.middle-container{
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.middle-container *{
+    margin-top: 1rem;
+    font-family: "Quicksand", sans-serif;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.intro img{
+    width: 30%;
+    min-width: 120px;
+    border-radius: 50%;
+}
+p{
+    font-size: 1.4rem;
+    margin-bottom: 50px;
+}
+.middle-container h2{
+    font-size: 3rem;
+    color: #516256;
+    font-weight: 700;
+}
+h1{
+    font-size: 4rem;
+    color: #516256;
+    font-family: "IBM Plex Sans JP", sans-serif;
+}
+.facts{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    gap: 1rem;
+    text-align: left;
+}
+.factsection img{
+    max-height: 250px;
+    border-radius: 10%;
+    border:2px solid #516256;
+}
+.facts h3{
+    font-size: 2rem;
+    color: #516256;
+    font-weight: 700;
+}
+.contact-me{
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+}
+.contactbtn{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #516256;
+    color: #c7d7ee;
+    border:20px solid #516256;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.resumebtn{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: #516256;
+    color: #c7d7ee;
+    border:10px solid #516256;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.foot{
+    display: block;
+    background-color: #516256;
+    text-align: center;
+    padding: 30px 0px;
+    flex-basis: 30%;
+    width: 100%;
+    margin-top: 50px;
+}
+.foot img{
+    height: 70px;
+    margin-bottom: 10px;
+}
+.foot h4{
+    font-weight: 100;
+}
+
+
+
+@media (max-width: 1100px) {
+    .mobileheroimg{
+        display: block;
+    }
+    .homeheroimg{
+        display: none;
+    }
+    .middle-container{
+        width: 90%;
+    }
+}
